@@ -3,10 +3,6 @@ import React, {ReactElement, useState} from 'react';
 import Image from "next/image";
 import bg from '../../public/TopLight.png'
 import TP_Btn from "./Components/TP_Btn";
-import TP_Input from "./Components/TP_Input";
-
-import Cosmos_input from "./ui/Cosmos_input"
-import Cosmos_text from "./ui/Cosmos_text"
 
 import { SiKubernetes } from "react-icons/si";
 import { FaArrowDownWideShort } from "react-icons/fa6";
@@ -47,7 +43,7 @@ export default function Home() {
           <FaArrowDownWideShort size={64}></FaArrowDownWideShort>
           <p className='w-[240px] text-[24px] font-semibold'>~78% less storage requirements</p>
           <p>
-            We're the only deduplication algorithm to not require duplicates.
+            We&#39;re the only deduplication algorithm to not require duplicates.
             We can deliver a minimum of 60% better compression than any other deduplication algorithm on the market.
           </p>
         </div>
